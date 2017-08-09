@@ -1,0 +1,100 @@
+/*
+
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+*/
+
+
+body{
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 0.1em;
+	background: linear-gradient(to top, #FFF,#ade3e1);;
+
+}
+
+h2 {
+	font-size: 28px;
+	letter-spacing: 0.1em;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#myNameBorder, .circle {
+	border: 5px solid rgba(256,256,256,0.5);/*#008080;*/
+	display: flex;
+}
+
+#myNameBorder{
+	/*background-image: url(/Users/juliensandiego/Desktop/Chicago1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center; */
+	margin: auto;
+    width:40%;
+    height: 220px;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 13px;
+    
+}
+#myName {
+	margin: auto;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 50px 10px;
+   
+}
+
+#descriptions {
+	font-size: 20px;
+	text-transform: uppercase;
+	padding: 10px 0px;
+}
+
+.shapesCircles {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.circle {
+	
+    width: 200px;
+	height: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	margin: 50px 60px 10px 60px;
+}
+
+.icon img {
+	position: center; 
+	width: 200px;
+	height: 200px;
+	-moz-border-radius: 200px;
+	-webkit-border-radius: 200px;
+	border-radius: 200px;
+	margin: 50px 60px 10px 60px;
+}
+
+/*.box {
+	color: #560c64;
+}*/
+
+.heading {
+	text-align: left;
+	font-size: 20px;
+	padding: 0px 10px;
+	text-transform: uppercase;
+}
+
+.text{
+	font-family: 'Quicksand', sans-serif;
+	padding: 0px 10px;
+	width: 50%;
+}
+
+

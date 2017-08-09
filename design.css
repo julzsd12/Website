@@ -1,0 +1,30 @@
+body{
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 0.1em;
+	background-color: #FFF;
+}
+
+
+#rectangle{
+	border: 5px solid #E5FEFF;
+	display: flex;
+	/*background-image: url(/Users/juliensandiego/Desktop/Chicago1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center; */
+	margin: auto;
+    width:40%;
+    height: 220px;
+    display: flex;
+    margin-top: 80px;
+    border-radius: 13px;
+ }
+
+ #name {
+	margin: auto;
+	font-size: 50px;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 50px 10px;
+   
+}
