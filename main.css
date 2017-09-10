@@ -5,13 +5,10 @@
 }
 
 */
-
-
 body{
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 0.1em;
-	background: linear-gradient(to top, #FFF,#ade3e1);;
-
+	background: linear-gradient(to top, #FFF,#ade3e1);
 }
 
 h2 {
@@ -21,12 +18,12 @@ h2 {
 	text-transform: uppercase;
 }
 
-#myNameBorder, .circle {
+.myNameBorder, .circle {
 	border: 5px solid rgba(256,256,256,0.5);/*#008080;*/
 	display: flex;
 }
 
-#myNameBorder{
+.myNameBorder{
 	/*background-image: url(/Users/juliensandiego/Desktop/Chicago1.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
@@ -39,7 +36,7 @@ h2 {
     border-radius: 13px;
     
 }
-#myName {
+.page-title {
 	margin: auto;
 	font-size: 50px;
 	text-transform: uppercase;
@@ -48,7 +45,7 @@ h2 {
    
 }
 
-#descriptions {
+.descriptions {
 	font-size: 20px;
 	text-transform: uppercase;
 	padding: 10px 0px;
@@ -80,6 +77,16 @@ h2 {
 	margin: 50px 60px 10px 60px;
 }
 
+.crop{
+	width: 90%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.crop img {
+	margin: 50px 60px 10px 60px;
+
+}
 /*.box {
 	color: #560c64;
 }*/

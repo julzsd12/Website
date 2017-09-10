@@ -1,7 +1,7 @@
 body{
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 0.1em;
-	background-color: #FFF;
+	background-color: linear-gradient(to top, #FFF,#ade3e1);
 }
 
 
@@ -26,5 +26,11 @@ body{
 	text-transform: uppercase;
 	text-align: center;
 	padding: 50px 10px;
+}
+#cny img{
+	width:300%; /* you can use % */
+    height: auto;
+}
+}
    
 }
