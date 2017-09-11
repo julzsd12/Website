@@ -23,6 +23,7 @@ h2 {
 .iconTitle{
 	/*color: #ade3e1;*/
 	color: #ade3e1;
+	margin-bottom: 90px;
 }
 
 .myNameBorder, .circle {
@@ -37,9 +38,10 @@ h2 {
 	background-position: center; */
 	margin: auto;
     width:40%;
-    height: 220px;
+    height: 180px;
     display: flex;
     margin-top: 80px;
+    margin-bottom: 40px;
     border-radius: 13px;
     
 }
@@ -49,7 +51,7 @@ h2 {
 	color: rgba(256,256,256,0.8);
 	text-transform: uppercase;
 	text-align: center;
-	padding: 50px 10px;
+	padding: 60px 20px;
    
 }
 
