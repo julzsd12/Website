@@ -72,6 +72,7 @@ hr {
 }
 
 .social-icons{
+	display: inline-block;
 	position: fixed;
 }
 
