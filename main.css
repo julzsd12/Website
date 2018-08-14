@@ -38,11 +38,11 @@ body {
 
 img {
 	display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
 	width: 20%;
-    max-height: auto;
+  max-height: auto;
 	border-radius: 50%;
 }
 
@@ -184,6 +184,10 @@ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 	.titleSection {
 		font-size: 20px;
 	}
+
+  img {
+    width: 60%;
+  }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 501px) {
@@ -192,8 +196,11 @@ font-family: Futura, "Trebuchet MS", Arial, sans-serif;
 		padding: 20px 50px;
 		letter-spacing: 0.01em;
  	 }
-}
+
+   img {
+    width: 50%;
   }
+}
 
 @media screen and (max-width: 2000px) and (min-width: 1001px){
  	 .section-text {
